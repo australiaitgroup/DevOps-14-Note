@@ -1,7 +1,6 @@
-老师: Ameya Agashe
-时间: 2024/09/29 14:00
+老师: Ameya Agashe  </br>
+时间: 2024/09/29 14:00  </br>
 PPT: [查看](https://www.canva.com/design/DAFw1gCEzC0/UfdUiDehqNW0dPF_bcohJg/view?utm_content=DAFw1gCEzC0&utm_campaign=designshare&utm_medium=link&utm_source=editor#1)
-
 
 ```
 学习目标:
@@ -13,39 +12,41 @@ PPT: [查看](https://www.canva.com/design/DAFw1gCEzC0/UfdUiDehqNW0dPF_bcohJg/vi
     使用GitHub 讲行团队协作
 ```
 
-  * [Git相关概念](#git----)
-    + [什么是版本控制系统(Version Control System)？](#----------version-control-system--)
-    + [软件发布生命周期(Software Development Life Cycle, SDLC)](#---------software-development-life-cycle--sdlc-)
-    + [为什么要使用version control？](#------version-control-)
-    + [Version Control词汇表](#version-control---)
-    + [集中式(Centralized) & 分布式(Distributed)](#----centralized--------distributed-)
-  * [Git概念](#git--)
-    + [什么是 Git？](#----git-)
-    + [Git branch (Git分支)](#git-branch--git---)
-    + [Git Workflow](#git-workflow)
-    + [GitSCM Local](#gitscm-local)
-    + [Git & GitHub](#git---github)
-  * [Git实际应用](#git----)
-    + [Step 0：一个点的历史 - Git Setup](#step-0----------git-setup)
-    + [Step 1:一条线的历史- commit](#step-1---------commit)
-    + [Step 2: 两条线的历史 – branch & merge](#step-2-----------branch---merge)
-      - [branch](#branch)
-      - [Merge a branch (git merge)](#merge-a-branch--git-merge-)
-      - [Merge conflicts](#merge-conflicts)
-    + [Step 3：多条线的历史- 远程协作](#step-3-------------)
-  * [Ask git to ignore files](#ask-git-to-ignore-files)
-    + [GitHub Pull Request (PR)](#github-pull-request--pr-)
-  * [Takeaways](#takeaways)
-  * [Force push](#force-push)
+
+- [Git相关概念](#git相关概念)
+  - [什么是版本控制系统(Version Control System)？](#什么是版本控制系统version-control-system)
+  - [软件发布生命周期(Software Development Life Cycle, SDLC)](#软件发布生命周期software-development-life-cycle-sdlc)
+  - [为什么要使用version control？](#为什么要使用version-control)
+  - [Version Control词汇表](#version-control词汇表)
+  - [集中式(Centralized) \& 分布式(Distributed)](#集中式centralized--分布式distributed)
+- [Git概念](#git概念)
+  - [什么是 Git？](#什么是-git)
+  - [Git branch (Git分支)](#git-branch-git分支)
+  - [Git Workflow](#git-workflow)
+  - [GitSCM Local](#gitscm-local)
+  - [Git \& GitHub](#git--github)
+- [Git实际应用](#git实际应用)
+  - [Step 0：一个点的历史 - Git Setup](#step-0一个点的历史---git-setup)
+  - [Step 1:一条线的历史- commit](#step-1一条线的历史--commit)
+  - [Step 2: 两条线的历史 – branch \& merge](#step-2-两条线的历史--branch--merge)
+    - [branch](#branch)
+    - [Merge a branch (git merge)](#merge-a-branch-git-merge)
+    - [Merge conflicts](#merge-conflicts)
+  - [Step 3：多条线的历史- 远程协作](#step-3多条线的历史--远程协作)
+- [Ask git to ignore files](#ask-git-to-ignore-files)
+- [GitHub Pull Request (PR)](#github-pull-request-pr)
+- [Takeaways](#takeaways)
+- [Force push](#force-push)
 - [Homework / Challenges](#homework--challenges)
 
 
 ## Git相关概念
 ### 什么是版本控制系统(Version Control System)？
-> 版本控制的意思是复制每一个有变动的版本，记录版本变更。
-> 想象一下你正在创建一个 Word 文档或一个简单的 Python 代码。现在你要确保每次你今天开始工作时，你完成了一些代码，写了一个文档。明天早上，你开始编辑工作文档，所以除了只拥有完成的代码之外，也许还需要追踪变化、追踪更改的历史记录(-在这里可以看作是不同的版本)来帮助你回忆工作流程。
-> 
-> 它可以让你轻松地回溯、撤销、重写、合并、分享、复制、跟踪、修复错误。
+版本控制的意思是复制每一个有变动的版本，记录版本变更。
+
+想象一下你正在创建一个 Word 文档或一个简单的 Python 代码。现在你要确保每次你今天开始工作时，你完成了一些代码，写了一个文档。明天早上，你开始编辑工作文档，所以除了只拥有完成的代码之外，也许还需要追踪变化、追踪更改的历史记录(-在这里可以看作是不同的版本)来帮助你回忆工作流程。
+
+它可以让你轻松地回溯、撤销、重写、合并、分享、复制、跟踪、修复错误。
 
 
 ### 软件发布生命周期(Software Development Life Cycle, SDLC)
@@ -345,7 +346,7 @@ pull+push
 - GIT 只处理 文本格式 和 SOURCE CODE 文件
 
 
-### GitHub Pull Request (PR)
+## GitHub Pull Request (PR)
 如果想给别人的开源仓库贡献代码，通常是先 fork 别人的项目，然后本地修改完成提交到自己的个人 fork 仓库，最后提交 PR 等待别人合入你的代码。
 
 拉取请求允许您向其他人介绍您已推送到 GitHub 存储库的更改。发送拉取请求后，利益相关方可以审查该组更改，讨论潜在的修改，甚至在必要时推送后续提交
@@ -402,7 +403,8 @@ git push -f
 git push <name> + <branch_name>
 git push --force-with-lease
 ```
-# Homework / Challenges
+
+## Homework / Challenges
 
 <https://github.com/australiaitgroup/DevOpsNotes/blob/main/WK2_Git/git_exercise_1.md>
 
