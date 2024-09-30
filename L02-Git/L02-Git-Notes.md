@@ -13,7 +13,32 @@ PPT: [查看](https://www.canva.com/design/DAFw1gCEzC0/UfdUiDehqNW0dPF_bcohJg/vi
     使用GitHub 讲行团队协作
 ```
 
-[TOC]
+  * [Git相关概念](#git----)
+    + [什么是版本控制系统(Version Control System)？](#----------version-control-system--)
+    + [软件发布生命周期(Software Development Life Cycle, SDLC)](#---------software-development-life-cycle--sdlc-)
+    + [为什么要使用version control？](#------version-control-)
+    + [Version Control词汇表](#version-control---)
+    + [集中式(Centralized) & 分布式(Distributed)](#----centralized--------distributed-)
+  * [Git概念](#git--)
+    + [什么是 Git？](#----git-)
+    + [Git branch (Git分支)](#git-branch--git---)
+    + [Git Workflow](#git-workflow)
+    + [GitSCM Local](#gitscm-local)
+    + [Git & GitHub](#git---github)
+  * [Git实际应用](#git----)
+    + [Step 0：一个点的历史 - Git Setup](#step-0----------git-setup)
+    + [Step 1:一条线的历史- commit](#step-1---------commit)
+    + [Step 2: 两条线的历史 – branch & merge](#step-2-----------branch---merge)
+      - [branch](#branch)
+      - [Merge a branch (git merge)](#merge-a-branch--git-merge-)
+      - [Merge conflicts](#merge-conflicts)
+    + [Step 3：多条线的历史- 远程协作](#step-3-------------)
+  * [Ask git to ignore files](#ask-git-to-ignore-files)
+    + [GitHub Pull Request (PR)](#github-pull-request--pr-)
+  * [Takeaways](#takeaways)
+  * [Force push](#force-push)
+- [Homework / Challenges](#homework--challenges)
+
 
 ## Git相关概念
 ### 什么是版本控制系统(Version Control System)？
