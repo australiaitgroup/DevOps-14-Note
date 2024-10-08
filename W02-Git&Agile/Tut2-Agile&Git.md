@@ -78,7 +78,11 @@ FinOps是财务运营的缩写，是一种管理实践，旨在促进组织对�
 ## Hands On
 ![aws-static](./img/static-sample.png)
 https://github.com/AutomationLover/goexpert_handson/blob/main/w2/guide.md
+
+
 可以直接用A Record 来指向 Bucket, 在创建Record的“Enter S3 endpoint“框输入Buket静态网站托管所给的网址的后半部分, AWS 会根据当前record的域名自动识别要访问的Bucket。
+
+
 e.g: `http://www.sukixuu.click.s3-website-ap-southeast-2.amazonaws.com` 输入 `s3-website-ap-southeast-2.amazonaws.com`
 ![record](./img/record.png)
 
