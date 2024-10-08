@@ -43,7 +43,7 @@ PPT: [查看](https://www.canva.com/design/DAF1herRIK4/OF18cKkhhVxODDkmHfmuXQ/vi
 
 
 SDLC (Software Development Life Cycle)是项目管理在软件分支的最基础的模型。软件开发生命周期 (SDLC) 是开发团队用来设计和构建高质量软件的经济高效且省时的过程。SDLC的目标是通过前瞻性计划将项目风险降至最低，从而使软件在生产期间及以后满足客户的期望。
-![SDLC](./SDLC.png)
+![SDLC](./img/SDLC.png)
 
 作为DevOps员工，要思考我在DevOps的领域 和 Agile的环境中学到什么。分析团队的工作方式和优缺点，以及做的不好的内容和没有做的内容可以运用什么方法论和工具改进。注重方法论才知道接下来如何去做。不能只关注怎样做和用什么技术去做，回归理论知识上，要清楚自己要做什么，要知道团队需要什么。
 
@@ -58,7 +58,7 @@ V 模型-V 模型代表软件开发过程，可以将其视为瀑布模型的扩
 ### Agile
 《The Lean Starup》: MVP-持续创新和改进，类似于敏捷开发方式。敏捷项目管理是一种**迭代**开发方法论，重视人类的沟通和反馈，适应变化，并产生工作成果。
 
-![agile](./Agile.png)
+![agile](./img/Agile.png)
 
 
 #### Agile (Modern) vs Waterfall (Traditional)
@@ -95,7 +95,7 @@ Agile的原则是：减少浪费、快速迭代、不断迭代、交流沟通、
 
 ## Agile Methodologies 敏捷方法
 Sprint冲刺，在每个Sprint周期内每个developer来领卡并完成。AU一般来说一个Sprint是 2 Weeks。
-![agile02](./Agile02.png)
+![agile02](./img/Agile02.png)
 
 ### Scrum
 Scrum 是一个敏捷的项目管理**框架**，人们可以在其中解决复杂的问题，同时富有成效和创造性地交付尽可能高价值的产品。
@@ -137,7 +137,7 @@ Kanban上的任务一般都来自Product Backlog
 
 #### Product Backlog Item - Under Scrum
 PBIS (Product Backlog Item):
-![PBI](./PBI.png)
+![PBI](./img/PBI.png)
 
 #### User Story - Under Agile
 描述一个ticket的方法, 以该方式描述业务需求, User Story 分为不同的级别 对于不同的级别有不同的story point
